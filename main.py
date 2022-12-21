@@ -9,7 +9,7 @@ import datetime
 from bson.objectid import ObjectId
 from pymongo import MongoClient
 import datetime
-cluster = "mongodb+srv://KaanKalkan:sabibdg2@newmongoproject.gshwhde.mongodb.net/?retryWrites=true&w=majority"
+cluster = "mongodb+srv://KaanKalkan:<password>@newmongoproject.gshwhde.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(cluster)
 
 db = client.MytestDB #ya yeni db ekle yada zaten olan dbyi kullan
