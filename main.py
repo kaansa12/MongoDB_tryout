@@ -102,4 +102,28 @@ def Mongo3():
 
     OutResults(results)
 
+def Mongo4():
+
+    MyElement = [{"name": f"TestSubject:1"}]
+    """
+    for i in range(2,10):
+
+        MyElement.append({"name": f"TestSubject:{i}"})
+
+
+
+        LeaveSpace()
+
+    print(MyElement)
+    MyCollection.insert_many(MyElement)
+    print("done!")
+    """
+    """
+    for i in range(2,1000):
+        MyElement = {"name": f"TestSubject:{i}"}
+        MyCollection.delete_one(MyElement)
+        LeaveSpace()
+        """
+
+
 
