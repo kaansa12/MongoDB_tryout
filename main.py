@@ -3,7 +3,7 @@
 # YouTube Video MongoDB Crash Course With Python 2022 By Patrick Loeber
 # https://www.youtube.com/watch?v=qWYx5neOh2s
 # MANUEL DB OPERATORS https://www.mongodb.com/docs/manual/reference/operator/
-
+#pip install pymongo
 
 import datetime
 from bson.objectid import ObjectId
